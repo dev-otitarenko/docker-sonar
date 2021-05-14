@@ -9,7 +9,12 @@ With a Quality Gate in place, you can Clean As You Code and therefore improve co
 docker-compose stop && docker-compose rm
 docker-compose up -d
 ```
-SonarQube is available [on the link http://localhost:9000 ](http://localhost:9000) 
+SonarQube is available [on the link http://localhost:9000 ](http://localhost:9000)
+
+## Integration Spring Boot Application with SonarQube
+
+[Read the instruction using maven plugins to integrate with SonarQube](./SB-INTEGRATION.md)
+
 ## Resolving issue "Elasticsearch: Max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]"
 
 Insert the new entry into the /etc/sysctl.conf file with the required parameter:
