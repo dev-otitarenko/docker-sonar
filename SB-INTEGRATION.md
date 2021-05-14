@@ -120,7 +120,7 @@ Last but not least, we should add Sonar properties.
 ```
 <project.test.result.directory>${project.build.directory}/test-results</project.test.result.directory>
 <sonar.host.url>http://localhost:9000</sonar.host.url>
-<sonar.user>...</sonar.user>
+<sonar.login>...</sonar.login>
 <sonar.password>...</sonar.password>
 <sonar.scm.provider>git</sonar.scm.provider>
 <sonar.java.codeCoveragePlugin>jacoco</sonar.java.codeCoveragePlugin>
